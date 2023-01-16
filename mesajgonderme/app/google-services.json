@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1099418876913",
+    "project_id": "gercekfinal",
+    "storage_bucket": "gercekfinal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1099418876913:android:b940713faefac93f956250",
+        "android_client_info": {
+          "package_name": "com.example.mesajgonderme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1099418876913-3te4g23derjvs57gh3go4jl8tei73fp7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxOs8fwwpv3oyTG6zKruDGPq270ccpo7Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1099418876913-3te4g23derjvs57gh3go4jl8tei73fp7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

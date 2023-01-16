@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/grupolustur">
+    <fragment
+        android:id="@+id/grupolustur"
+        android:name="com.example.mesajgonderme.grupolustur"
+        android:label="Grup Oluştur"
+        tools:layout="@layout/fragment_grupolustur" />
+    <fragment
+        android:id="@+id/grubauyeekle"
+        android:name="com.example.mesajgonderme.grubauyeekle"
+        android:label="Gruba Üye Ekle"
+        tools:layout="@layout/fragment_grubauyeekle" />
+    <fragment
+        android:id="@+id/mesajolustur"
+        android:name="com.example.mesajgonderme.mesajolustur"
+        android:label="Mesaj Oluştur"
+        tools:layout="@layout/fragment_mesajolustur" />
+    <fragment
+        android:id="@+id/mesajgonder"
+        android:name="com.example.mesajgonderme.mesajgonder"
+        android:label="Mesaj Gönder"
+        tools:layout="@layout/fragment_mesajgonder" />
+    <fragment
+        android:id="@+id/cikis"
+        android:name="com.example.mesajgonderme.cikis"
+        android:label="Çıkış"
+        tools:layout="@layout/fragment_cikis" />
+</navigation>
